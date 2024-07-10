@@ -1,0 +1,232 @@
+@media all and (min-width: 1200px) {
+  .main-menu a.navbar-brand {
+    padding: 36px 50px 36px 0;
+    border-right: 1px solid #fff;
+  }
+  .navbar.main-menu .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+  }
+  .navbar.main-menu .dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+  .navbar.main-menu .dropdown-menu.fade-up {
+    top: 180%;
+  }
+  .navbar.main-menu .nav-item:hover .dropdown-menu {
+    transition: 0.5s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  nav.navbar.main-menu {
+    margin: 12px 0;
+    padding: 0.5rem 1rem;
+  }
+
+  ul.navbar-nav li.nav-item a.nav-link {
+    padding: 20px 0px;
+  }
+  .project-hvr > a > h3 {
+    font-size: 14px;
+  }
+  .tractor-tabs-wraper .nav-item .nav-link {
+    padding: 10px 6px;
+  }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  nav.navbar.main-menu {
+    margin: 12px 0;
+    padding: 0.5rem 1rem;
+  }
+
+  ul.navbar-nav li.nav-item a.nav-link {
+    padding: 20px 0px;
+  }
+  .project-hvr {
+    padding: 10px;
+    text-align: center;
+  }
+  .project-hvr .btn,
+  .project-hvr > a > h3 {
+    float: none !important;
+  }
+  .callto-action-content h3 {
+    font-size: 25px;
+  }
+  .callto-action-content p {
+    margin-top: 10px;
+  }
+  .quote-sologan-area p {
+    width: 60%;
+  }
+  .masonry-blog.card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+  .update-cart {
+    margin-top: 20px;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  nav.navbar.main-menu {
+    margin: 12px 0;
+    padding: 0.5rem 1rem;
+  }
+
+  ul.navbar-nav li.nav-item a.nav-link {
+    padding: 20px 0px;
+  }
+  .pb-85,
+  .sec-p-100 {
+    padding: 50px 0;
+  }
+  .mb-100 {
+    margin-bottom: 50px;
+  }
+  .spacer-15,
+  .spacer-20,
+  .spacer-30,
+  .spacer-50 {
+    height: 0;
+  }
+  .tractor-lang {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .tractor-lang .nice-select {
+    float: none !important;
+    display: inline-block;
+  }
+  .header-top-social {
+    display: block;
+    clear: both;
+  }
+  .quote-btn {
+    float: none !important;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header-middle-logo {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+  }
+  .header-middle-short-info {
+    text-align: center;
+  }
+  .mean-container a.meanmenu-reveal {
+    margin-top: -5px;
+  }
+  .mean-container .mean-nav {
+    margin-top: 40px;
+  }
+  .search-area {
+    display: none;
+  }
+  .single-blocks-services {
+    margin-bottom: 20px;
+  }
+  .single-project {
+    margin-bottom: 20px;
+  }
+  .about-slider-wraper {
+    margin-top: 20px;
+  }
+  .single-counter {
+    padding: 30px 0;
+    margin: 15px 0;
+  }
+  .single-services-wraper {
+    border-bottom: none !important;
+  }
+  .callto-action-area .btn {
+    float: none !important;
+  }
+  .single-team-wraper {
+    margin-bottom: 15px;
+  }
+  .quote-sologan-area p {
+    width: 100%;
+  }
+  .tractour-accordian-wrapeer {
+    margin-top: 15px;
+  }
+  .footer-widget {
+    margin: 15px 0;
+  }
+  .contact-info-detail {
+    margin-top: 30px;
+  }
+  .tractour-breadcroumb h2 {
+    margin-bottom: 50px;
+  }
+  .masonry-blog-sidebar.card-columns,
+  .masonry-blog.card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .tractour-pagination {
+    margin-bottom: 30px;
+  }
+  .post-tag-share-area {
+    border: none;
+    padding: 0;
+  }
+  .post-tag-share-area ul {
+    display: block;
+  }
+  .blog-share-icon {
+    display: block;
+    float: left;
+    margin: 20px 0;
+  }
+  .post-comments-form-area {
+    margin-bottom: 30px;
+  }
+  .shop-area .short-by,
+  .shop-area .sho-result {
+    margin-bottom: 20px;
+  }
+  .mayabi-login-area {
+    margin: 20px 0;
+  }
+  .update-cart {
+    margin-top: 20px;
+  }
+  .cart-table .table-bordered td,
+  .cart-table .table-bordered th {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .cart-img img {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  nav.navbar.main-menu {
+    margin: 12px 0;
+    padding: 0.5rem 1rem;
+  }
+
+  ul.navbar-nav li.nav-item a.nav-link {
+    padding: 20px 0px;
+  }
+}
