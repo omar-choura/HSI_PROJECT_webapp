@@ -1,7 +1,7 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
-import img1 from "../img/about/about-1.jpg";
+import img1 from "../img/about/ma11.jpg";
 import img2 from "../img/about/Capture d’écran 202442111.png";
 const Aboutshort2 = () => {
   const options = {
@@ -48,20 +48,16 @@ const Aboutshort2 = () => {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <h2>about our history</h2>
+            <h2>À propos de notre histoire</h2>
               <p>
-                But I must explain to you how all this mistaken idea of
-                denouncing pleasure praising pain was born and I will give you a
-                complete account of the system, expound the actual teachings of
-                the great explorer of the truth, the master-builder of human
-                happiness. No one rejects, dislikes, or avoids pleasure itself,
-                because it is pleasure, but because those who do not know how to
-                pursue pleasure rationally encounter consequences are extremely
-                painful. Nor again is there anyone who loves or pursues or
-                desires to obtain pain of itselfBut I must explain to you how
-                all this mistaken idea of denouncing i and pleasure and praising
-                pain was born and I will give you a complete account of system,
-                and expound the actual teachings of{" "}
+              Elle est créée en 2016, la société HASSAIRI STEEL INDUSTRIE a réussi à se faire
+              tailler une part de marché importante dans le domaine de construction métallique. Ceci
+              revient en particulier au savoir faire de son équipe dirigeants, au savoir faire acquis depuis
+              et même avant sa création ainsi que de la qualité des produits et services fournis. Mr
+              « Housseleddine HASSAIRI », à la tête de la société HSI est de formation universitaire
+              est spécialisée en construction métallique. Avant d’entamer son propre projet, il a cumulé
+              une carrière professionnelle de plus de 10 ans (depuis 2005) au sein de sociétés familiales
+              spécialisées en la construction métallique et le commerce des produits métallurgique{" "}
               </p>
             </div>
           </div>

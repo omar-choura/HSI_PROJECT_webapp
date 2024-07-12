@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../img/blocks/mach1.png";
-import img2 from "../img/blocks/mach2.png";
+import img1 from "../img/blocks/ma1.jpg";
+import img2 from "../img/blocks/ma22.jpg";
 import img3 from "../img/blocks/mach3.png";
 import img4 from "../img/blocks/mach4.png"
 const Blockserv = () => {
@@ -15,11 +15,11 @@ const Blockserv = () => {
                   <img src={img1} alt="img-1" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="#">Ligne CNC de perçage et débitage des profilés:</a>
+                  <a>Ligne CNC de perçage et débitage des profilés:</a>
                 </h3>
                 <p>
                   Nombre d'axe et broche de perçage: 3 <br/>
-                  -Type de profilé: HEB, HEA, IPE, UPN... 
+                  -Type de profilé: HEB, HEA, IPE, UPN... <br/>
                   -Dimension de profilé: De 160 au 1200mm
                 </p>
               </div>
@@ -31,7 +31,7 @@ const Blockserv = () => {
                   <img src={img2} alt="img-2" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="#">Machine CNC Plasma:</a>
+                  <a >Machine CNC Plasma:</a>
                 </h3>
                 <p>
                 -Dimensions maximales <br/>de la tôle : 6 x 2 m<br/>
@@ -47,7 +47,7 @@ const Blockserv = () => {
                   <img src={img3} alt="img-3" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="#">Rouleuse de tôles à 4 rouleaux :</a>
+                  <a >Rouleuse de tôles à 4 rouleaux :</a>
                 </h3>
                 <p>
                 - Largeur maximale : 2 m <br/>
@@ -62,7 +62,7 @@ const Blockserv = () => {
                   <img src={img4} alt="img-3" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="#">9 poste de soudure MIG 400A                  </a>
+                  <a >9 poste de soudure MIG 400A  </a>
                 </h3>
                 
                 

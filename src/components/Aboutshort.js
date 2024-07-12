@@ -1,7 +1,7 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
-import img1 from "../img/about/about-1.jpg";
+import img1 from "../img/about/ma11.jpg";
 import img2 from "../img/about/Capture d’écran 202442111.png";
 const Aboutshort = () => {
   const options = {
