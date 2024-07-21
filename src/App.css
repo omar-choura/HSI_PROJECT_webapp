@@ -1,3 +1,4 @@
+/* Existing styles */
 .App {
   text-align: center;
 }
@@ -34,5 +35,68 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* New styles for Blockserv component */
+.blocks-services-area {
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative;
+  animation: fadeInUp;
+}
+
+.single-blocks-services {
+  margin-bottom: 30px;
+}
+
+.single-blocks-img img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-type-1, .btn-type-2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .btn-type-1, .btn-type-2 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .single-blocks-services {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-type-1, .btn-type-2 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+.tractor-single-slider h1 {
+  font-size: calc(16px + 2vmin);
+}
+
+.tractor-single-slider p {
+  font-size: calc(10px + 1vmin);
+  max-height: 100px; /* Limit the height of the paragraph */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  margin-bottom: 20px; /* Ensure there's space below the paragraph */
+}
+
+@media (max-width: 768px) {
+  .tractor-single-slider p {
+    font-size: calc(8px + 1vmin); /* Adjust font size for smaller screens */
+    max-height: 80px; /* Limit the height for smaller screens */
   }
 }
